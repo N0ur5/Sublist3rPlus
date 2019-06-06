@@ -1,3 +1,9 @@
+## Note on Fork 
+
+Let me start by saying I love Sublist3r. However one thing I find, especially during larger penetration testing engagements is that a number of the results tend to be dead links. I'm sure there's a number of reasons for why (e.g. link has since been moved, renamed, taken down, or was used in some online publication as an example subdomain that was never actually live. My goal (as a very amature python dev - which may even be an overstatment) is to add functionality to Sublist3r which will then ping the subdomains which are found to see which respond. There is always the chance something is live with ICMP off. But this is probably less common than the contrary. The end result will ideally be something like:
+  -List of Subdomains that responded to ping, and ip they responded from
+  -List of Subdomains that didn't respond to ping
+
 ## About Sublist3r 
 
 Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu, and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster, and ReverseDNS.
